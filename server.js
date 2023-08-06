@@ -30,7 +30,7 @@ app.get("/", async (req, res) => {
 
 app.get("/reset", async (req, res) => {
   addInitialFormData();
-  res.send("Server is Working Fine!");
+  res.send("Database has been properly reset!");
 });
 
 // CONNECT Database & LISTEN_
